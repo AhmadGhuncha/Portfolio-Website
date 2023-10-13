@@ -1,0 +1,134 @@
+*{
+    font-family: 'Wix Madefor Text', sans-serif;
+    line-height: 1.5;
+}
+
+.menu ul {
+    list-style-type: none;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+  }
+  
+ .menu li {
+    color: #333;
+    background-color: white;
+  }
+  
+.menu li a {
+    display: flex;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+
+.menu li a:hover {
+    background-color: #E1D9D1;
+  }
+  
+.menu a.active{
+    background-color:#E1D9D1;
+}
+
+.email{
+    color: #333;
+
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: #333;
+}
+
+.top_logo{
+    margin-bottom: 20px;
+}
+
+#home{
+    display: flex;
+}
+
+.home-text {
+    width: 50%;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.home-image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image img{
+    border-radius: 50%;
+}
+
+.home-button button{
+    border-radius: 50px;
+    margin-bottom: 70px;
+    padding: 27px 55px;
+    font-size: large;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.home-button{
+    margin-left: 50px;
+}
+
+.about-text {
+    display: flex;
+    margin: 50px;
+    text-align: left;
+}
+
+.span1{
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about-text p{
+    font-size: 25px;
+    font-weight:normal;
+}
+
+#about{
+    display: flex;
+}
+
+#skills h1{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex   ;
+}
+
+#skills p{
+    font-weight: normal;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
